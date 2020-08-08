@@ -1,0 +1,9 @@
+#container-2 {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.first-grid,
+.second-grid,
+.third-grid {
+  text-align: center;
+}

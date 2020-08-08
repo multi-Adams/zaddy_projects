@@ -1,0 +1,87 @@
+body {
+  font-family: 'Karla', sans-serif;
+  max-width: 70%;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  background: hsl(71, 73%, 54%);
+  padding: 1rem 1.5rem;
+  width: 80%;
+  margin: auto;
+}
+.first-grid{
+background: #fff;
+padding: 1.5rem
+}
+.first-grid h4{
+    color: hsl(71, 73%, 54%);
+}
+.first-grid h1{
+    color:hsl(179, 62%, 43%) ;
+}
+.first-grid .para1,  .para2{
+    color:hsl(218, 22%, 67%) ;
+}
+.second-grid{
+    background:hsl(179, 62%, 43%) ;
+    padding: 1.5rem;
+    color: #fff;
+   
+}
+.second-grid button{
+    background: hsl(71, 73%, 54%);
+    padding: 1rem 1.5rem;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+}
+.second-grid h1 {
+    font-size: 2rem;
+}
+.second-grid h1 span{
+    padding-left: 1rem;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+.third-grid{
+    background:hsl(218, 22%, 67%) ;
+    padding: 1.5rem;
+    color: #fff;
+}
+.third-grid li{
+    line-height: 1.5rem;
+}
+#container {
+  display: grid;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.057),
+  0 12.5px 10px rgba(0, 0, 0, 0.047),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.041),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.04),
+  0 100px 80px rgba(0, 0, 0, 0.047)
+;
+margin-top: 3rem;
+}
+#container-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
