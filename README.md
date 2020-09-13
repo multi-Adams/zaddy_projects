@@ -1,2 +1,2 @@
 # zaddy_projects
-I got a mentor⚡
+I got a ⚡
